@@ -1,0 +1,13 @@
+nav {
+  background-color: lightblue;
+}
+h1 {
+  position: relative;
+  left: 300;
+}
+nav li {
+  display: inline;
+  margin: 20px;
+  position: relative;
+  left: 500px;
+}
