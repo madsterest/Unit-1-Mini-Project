@@ -1,13 +1,37 @@
-nav {
+body {
   background-color: lightblue;
 }
-h1 {
-  position: relative;
-  left: 300;
+
+nav {
+  background-color: rgba(129, 203, 228, 0.815);
+  text-align: right;
+  border: 2px solid white;
 }
+h1 {
+  text-align: center;
+  position: relative;
+  padding: 10px;
+}
+
 nav li {
   display: inline;
-  margin: 20px;
+  margin: 15px;
+}
+div {
   position: relative;
-  left: 500px;
+  left: 200px;
+}
+h2 {
+  font-size: 20px;
+}
+img {
+  width: 200px;
+  height: 250px;
+  position: relative;
+  left: 200px;
+}
+footer {
+  background-color: rgba(129, 203, 228, 0.815);
+  border: 2px solid white;
+  padding: 10px;
 }
