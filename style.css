@@ -12,6 +12,12 @@ h1 {
   position: relative;
   padding: 10px;
 }
+aside ul {
+  list-style-type: none;
+}
+aside ul li {
+  margin: 7px;
+}
 
 nav li {
   display: inline;
@@ -24,8 +30,8 @@ h2 {
   font-size: 20px;
 }
 img {
-  width: 200px;
-  height: 250px;
+  width: 40%;
+  height: 10%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -34,4 +40,13 @@ footer {
   background-color: rgba(129, 203, 228, 0.815);
   border: 2px solid white;
   padding: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  aside {
+    text-align: center;
+  }
+  aside ul {
+    padding: 0px;
+  }
 }
